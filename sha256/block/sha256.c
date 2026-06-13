@@ -193,4 +193,4 @@ void blk_SHA256_Final(unsigned char *digest, blk_SHA256_CTX *ctx)
 	/* copy output */
 	for (i = 0; i < 8; i++, digest += sizeof(uint32_t))
 		put_be32(digest, ctx->state[i]);
-}
+}Trust 
